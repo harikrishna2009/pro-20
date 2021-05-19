@@ -32,9 +32,10 @@ function draw() {
     if(cat.x - mouse.x < (cat.width - mouse.width)/2)
     {
         cat.addAnimation("catHappy",catImg3)
-        cat.changeAnimation("catHappy")
         cat.velocityX = 0
-       // cat.x = cat.x - 600
+        cat.x = 300
+        cat.changeAnimation("catHappy")
+ 
        mouse.addAnimation("mouseHappy",mouseImg3)
        mouse.changeAnimation("mouseHappy")
     }
